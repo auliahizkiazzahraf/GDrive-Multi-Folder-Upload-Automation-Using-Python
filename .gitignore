@@ -1,0 +1,9 @@
+# Ignore credentials and local configs
+credentials.json
+token.json
+config.json
+email_map.json
+
+# Python cache
+__pycache__/
+*.pyc
