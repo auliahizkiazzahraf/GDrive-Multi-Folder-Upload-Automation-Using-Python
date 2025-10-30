@@ -7,23 +7,9 @@ This is a sanitized, public-safe version.
 No credentials or company data included.  
 
 **🎯 Brief Concept**
-Every month, I need to upload Excel files to the company’s Google Drive, into folders with a fairly deep structure:
+Every month, I need to upload Excel files to the company’s Google Drive, into folders with a fairly deep structure. Each dealer has their own folder, and inside it, there are year folders (2025, 2026, etc.).
 
-Root Folder Name
-│
-├── Folder Area A
-│   ├── Folder Kode Dealer
-│   │   └── 2025
-│   │       └── 10. kode dealer - Template 2025.xlsx
-│   └── ...
-│
-├── Folder Area B
-│   └── ...
-
-
-Each dealer has their own folder, and inside it, there are year folders (2025, 2026, etc.).
 I need to upload the template file to all dealer folders, automatically rename it according to the dealer code, and grant access to each dealer’s email.
-Additionally, the system automatically consolidates all Google Drive links of uploaded files into a single Excel file.
 
 **Scripts Overview**
 1. upload_automation_sanitized.py
