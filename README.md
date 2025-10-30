@@ -1,14 +1,20 @@
-# GDrive-Multi-Folder-Upload-Automation-Using-Python
-Automates uploading files to multiple Google Drive folders and assigning different email access permissions for each folder using Python and Google Drive API.
-
-**Context**  
 This repo contains a simplified version of an automation I built at work to streamline monthly file uploads and permission management for each dealer's Google Drive folder.
+
+**Scripts Overview**
+1. upload_automation_sanitized.py
+    Automates uploading Excel files to designated folders on Google Drive. Features include:
+     - Copying a template file per dealer
+     - Renaming files automatically
+     - Uploading to the respective dealer folders
+2. add_access_sanitized.py
+    Automates adding access permissions to Google Drive folders or files.
+
+Both scripts are self-contained and rely only on standard Python libraries and pydrive
 
 **Features**
 - Automatically uploads a single Excel template to 70+ dealer folders.
 - Renames each file using the dealer code.
 - Optionally grants access to different emails per dealer.
-- Generates a rekap (summary) of file links for reporting.
 
 **Tech Stack**
 - Python + Google Drive API
