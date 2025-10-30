@@ -1,0 +1,6 @@
+{
+  "ROOT_FOLDER_NAME": "Claim Sales Program",
+  "ALLOWED_REGIONS": ["R1", "R2"],
+  "FILTER_YEAR": "2025",
+  "FILTER_MONTH_PREFIX": "10."
+}
