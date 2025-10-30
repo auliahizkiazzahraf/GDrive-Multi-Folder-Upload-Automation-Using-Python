@@ -46,3 +46,10 @@ Both scripts are self-contained and rely only on standard Python libraries and p
 | `email_map.example.json` | Dummy email mapping |
 | `.gitignore` | Hides sensitive files |
 
+**💡 Personal insight**
+Initially, this was just a small idea to ease my monthly workload. But once implemented, the results were remarkable:
+    1. Routine work can be fully automated
+    2. Risk of human error drastically reduced
+    3. All files and dealer access are automatically recorded
+This is a simple example of how small automation can make a huge impact on daily workflows.
+
